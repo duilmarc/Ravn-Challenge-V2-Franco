@@ -4,6 +4,14 @@
     --textlight: #828282;
     --textemphasis: #EC5757;
   }
+
+  #root{
+    height: 100vh;
+    width: 100vw;
+
+    position: fixed;
+
+  }
   .App {
     margin-left: 0pt; 
     top: 40;
@@ -12,9 +20,6 @@
     z-index: 1030;
   }
   
-  .body{
-    height: 100%;
-  }
   .navbar-rvn{
     height:40px;
     background-color : var(--rvanblack);
@@ -36,17 +41,27 @@
   .Registerview{
     margin-top: 40px;
   }
+
+
   .Right{
     padding-top: 10px;
     text-align: center;
-    overflow: scroll;
+    position: fixed;
   }
   .Left{
     padding-top: 10px;
-    border-right: 1px solid black;
+    border-right: 1px solid #333333;
     text-align: center;
-    overflow: scroll;
+    height: 100vh;
   }
   .container, .container-lg, .container-md, .container-sm, .container-xl{
-  max-width: none;
+    max-width:max-content;
+    max-height: max-content;
+  }
+  .container-page
+  {
+    padding-top: 40px;
+    position: static;
+    height: 100vh;
+    width: 100vw;
   }
