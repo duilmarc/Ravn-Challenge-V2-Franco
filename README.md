@@ -7,40 +7,33 @@ This web app consume an API of Star War using an Apollo Client of GraphQL to sho
 This app shows all characteres of Star Wars. The user can explore the information of each character like his name, homeworld, kind of specie, eye color, hair color, skin color and birth year, just clicked on the character in the list of them . Also shows the vehicles of character uses.
 
 ## Setup and Run app
-The setup of project was made on unix 
+ 
+You need the next dependencies:
+* [npm](https://www.npmjs.com/)
+* [git](https://git-scm.com/) 
+
 ### Setup the project 
 
-Install nodejs and npm 
+Clone this repository 
 ``` bash 
-
-sudo apt install nodejs
-sudo apt install npm
-
+git clone https://github.com/duilmarc/Ravn-Challenge-V2-Franco.git
 ```
-Install angular-cli version(11.0.3) 
-
+Install node module dependences of project 
 ``` bash
-
-npm install -g @angular/cli 
-
+npm install 
 ```
 
-Install angular apollo cli
-
-``` bash
-
-ng add apollo-angular
-
-```
 ## Run App
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `npm start` for a dev server. Navigate to `http://localhost:3000/`.
 
 ## View of aplication
 
 ## Technologies used
-* [Angular](https://angular.io/) - Use to fronted Application
-* [Apollo](https://www.apollographql.com/docs/angular/) - Used to interact with GraphQl with Angular
+* [React](https://es.reactjs.org/) - Use to fronted Application
+* [Apollo](https://www.apollographql.com/docs/react/) - Used to interact with GraphQl
+* [Router-React](https://reactrouter.com/) - Use to manage routes in the project
+
 
 
 

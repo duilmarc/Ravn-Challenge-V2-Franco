@@ -1,0 +1,52 @@
+:root {
+    --rvanblack: #121212;
+    --textdark: #333333;
+    --textlight: #828282;
+    --textemphasis: #EC5757;
+  }
+  .App {
+    margin-left: 0pt; 
+    top: 40;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+  }
+  
+  .body{
+    height: 100%;
+  }
+  .navbar-rvn{
+    height:40px;
+    background-color : var(--rvanblack);
+    text-indent: 33px;
+  }
+  .navbar-rvn p {
+    text-align: left;
+    color: white;
+    font-size: 17px;
+  }
+  .fixed-top{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+  }
+  
+  .Registerview{
+    margin-top: 40px;
+  }
+  .Right{
+    padding-top: 10px;
+    text-align: center;
+    overflow: scroll;
+  }
+  .Left{
+    padding-top: 10px;
+    border-right: 1px solid black;
+    text-align: center;
+    overflow: scroll;
+  }
+  .container, .container-lg, .container-md, .container-sm, .container-xl{
+  max-width: none;
+  }

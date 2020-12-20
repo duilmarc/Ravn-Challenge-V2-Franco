@@ -1,48 +1,43 @@
 {
-  "name": "rvn-challenge",
-  "version": "0.0.0",
-  "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e"
-  },
+  "name": "ravn",
+  "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@angular/animations": "~11.0.3",
-    "@angular/common": "~11.0.3",
-    "@angular/compiler": "~11.0.3",
-    "@angular/core": "~11.0.3",
-    "@angular/forms": "~11.0.3",
-    "@angular/platform-browser": "~11.0.3",
-    "@angular/platform-browser-dynamic": "~11.0.3",
-    "@angular/router": "~11.0.3",
-    "apollo-angular": "^2.1.0",
-    "rxjs": "~6.6.0",
-    "tslib": "^2.0.0",
-    "zone.js": "~0.10.2",
-    "@apollo/client": "^3.0.0",
-    "graphql": "^15.0.0"
+    "@apollo/client": "^3.3.4",
+    "@testing-library/jest-dom": "^5.11.6",
+    "@testing-library/react": "^11.2.2",
+    "@testing-library/user-event": "^12.5.0",
+    "bootstrap": "^4.5.3",
+    "graphql": "^15.4.0",
+    "react": "^17.0.1",
+    "react-bootstrap": "^1.4.0",
+    "react-dom": "^17.0.1",
+    "react-scripts": "4.0.1",
+    "react-simple-infinite-loading": "^1.1.0",
+    "web-vitals": "^0.2.4"
   },
-  "devDependencies": {
-    "@angular-devkit/build-angular": "~0.1100.3",
-    "@angular/cli": "~11.0.3",
-    "@angular/compiler-cli": "~11.0.3",
-    "@types/jasmine": "~3.6.0",
-    "@types/node": "^12.11.1",
-    "codelyzer": "^6.0.0",
-    "jasmine-core": "~3.6.0",
-    "jasmine-spec-reporter": "~5.0.0",
-    "karma": "~5.1.0",
-    "karma-chrome-launcher": "~3.1.0",
-    "karma-coverage": "~2.0.3",
-    "karma-jasmine": "~4.0.0",
-    "karma-jasmine-html-reporter": "^1.5.0",
-    "protractor": "~7.0.0",
-    "ts-node": "~8.3.0",
-    "tslint": "~6.1.0",
-    "typescript": "~4.0.2"
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
