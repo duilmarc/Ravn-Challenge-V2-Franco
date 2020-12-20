@@ -23,7 +23,7 @@ class CharacterList extends Component {
                 </div>
                 <hr></hr>
               </div>
-            )})
+            )},this.props.onLoadMore())
         }
     </>
     )

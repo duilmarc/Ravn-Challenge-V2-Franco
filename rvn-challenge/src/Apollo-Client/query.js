@@ -2,7 +2,7 @@ import { gql } from "@apollo/client";
 
 export const SHOWLIST = gql`query getlistcharacter($cursor : String)
 {
-  allPeople(  after: $cursor ) {
+  allPeople( first:5,  after: $cursor ) {
       edges{
         node{
           id

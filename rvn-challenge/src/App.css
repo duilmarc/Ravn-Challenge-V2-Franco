@@ -50,12 +50,14 @@
   }
   .Left{
     padding-top: 10px;
+    padding-bottom: 40px ;
     border-right: 1px solid #333333;
     text-align: center;
     height: 100vh;
     overflow-y: auto;
     overflow-x: hidden;
   }
+  
   .container, .container-lg, .container-md, .container-sm, .container-xl{
     max-width:max-content;
     max-height: max-content;
