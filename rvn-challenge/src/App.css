@@ -5,6 +5,8 @@
     --textemphasis: #EC5757;
   }
 
+/* Page configuration */
+
   #root{
     height: 100vh;
     width: 100vw;
@@ -19,7 +21,19 @@
     left: 0;
     z-index: 1030;
   }
-  
+ .container-page
+  {
+    padding-top: 40px;
+    position: static;
+    height: 100vh;
+    width: 100vw;
+  }
+  .container, .container-lg, .container-md, .container-sm, .container-xl{
+    max-width:max-content;
+    max-height: max-content;
+  }
+
+  /* Nav Bar styles */
   .navbar-rvn{
     height:50px;
     background-color : var(--rvanblack);
@@ -39,38 +53,73 @@
     left: 0;
     z-index: 1030;
   }
+
   
-  .Registerview{
-    margin-top: 45px;
-    margin-bottom: 40px;
-  }
+/* CSS TO LIST OF CHARACTER */
 
-
-  .Right{
-    padding-top: 15px;
-    text-align: center;
-    position: fixed;
-  }
-  .Left{
-    padding-top: 15px;
-    padding-bottom: 40px ;
-    border-right: 1px solid #333333;
-    text-align: center;
-    height: 100vh;
-    overflow-y: auto;
-    overflow-x: hidden;
-    border-bottom-width: 30px;
-    border-bottom-style: solid;
-  }
-
-  .container, .container-lg, .container-md, .container-sm, .container-xl{
-    max-width:max-content;
-    max-height: max-content;
-  }
   .container-page
   {
     padding-top: 40px;
     position: static;
     height: 100vh;
     width: 100vw;
+  }
+
+  .Registerview{
+    margin-top: 45px;
+  }
+
+  .Right{
+    padding-top: 15px;
+    text-align: center;
+    position: relative;
+  }
+  .Left{
+    padding-top: 15px;
+    padding-bottom: 40px ;
+    border-right: 1px solid var(--textdark);
+    text-align: left;
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border-bottom-width: 30px;
+    border-bottom-style: solid;
+  }
+  .loader{
+    padding-left: 30px;
+  }
+ 
+  .Reference{
+    text-decoration: none;
+    margin-bottom: 0px;
+    border-color: var(--textlight);
+    margin-bottom: 10px;
+  }
+  .Reference:hover{
+    text-decoration: none;
+  }
+  .Reference hr{
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+
+  .Reference h2 {
+    padding-top: 10px;
+    color : var(--textdark);
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+
+  .Reference p {
+    color : var(--textlight);
+    font-size: 14px;
+    margin-left: 30px;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+  }
+  .Character:hover{
+    background-color: gainsboro;
   }
