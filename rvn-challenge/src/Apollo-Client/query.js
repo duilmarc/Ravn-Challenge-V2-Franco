@@ -7,16 +7,6 @@ export const SHOWLIST = gql`query getlistcharacter($cursor : String)
         node{
           id
           name
-          eyeColor
-          hairColor
-          skinColor
-          birthYear
-          vehicleConnection
-          {
-            vehicles{
-              name
-            }
-          }			
           species{
             name
           }
@@ -35,3 +25,16 @@ export const SHOWLIST = gql`query getlistcharacter($cursor : String)
   }
 }
 `; 
+export const DETAILLINFO = gql`query getdetaillinfo($id : ID){
+  person(id: $id){
+    eyeColor
+    hairColor
+    birthYear
+    skinColor
+    vehicleConnection{
+      vehicles{
+        name
+      }
+    }
+  }     
+}`; 
