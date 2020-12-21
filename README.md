@@ -30,13 +30,13 @@ Run `npm start` for a dev server. Navigate to `http://localhost:3000/`.
 ## View of aplication
 
 ### Loading data 
-![Loading Dada](https://raw.githubusercontent.com/duilmarc/Ravn-Challenge-V2-Franco/blob/main/captures/loading.png)
+![Loading Dada](https://github.com/duilmarc/Ravn-Challenge-V2-Franco/blob/main/captures/loading.png)
 ### Error Load data
-![Error when data was loading](https://raw.githubusercontent.com/duilmarc/Ravn-Challenge-V2-Franco/blob/main/captures/error.png)
+![Error when data was loading](https://github.com/duilmarc/Ravn-Challenge-V2-Franco/blob/main/captures/error.png)
 ### Data Load
-![List of Characters](https://raw.githubusercontent.com/duilmarc/Ravn-Challenge-V2-Franco/blob/main/captures/listofCharacters.png)
+![List of Characters](https://github.com/duilmarc/Ravn-Challenge-V2-Franco/blob/main/captures/listofCharacters.png)
 ### Details of Data
-![Details of Characters](https://raw.githubusercontent.com/duilmarc/Ravn-Challenge-V2-Franco/blob/main/captures/detailInfo.png)
+![Details of Characters](https://github.com/duilmarc/Ravn-Challenge-V2-Franco/blob/main/captures/detailInfo.png)
 
 ## Technologies used
 * [React](https://es.reactjs.org/) - Use to fronted Application
