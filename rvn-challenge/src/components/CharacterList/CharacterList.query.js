@@ -4,11 +4,12 @@ import "./CharacterList.css";
 import CharacterList from "./CharacterList";
 import {SHOWLIST} from "./../../Apollo-Client/query";
 import  Loader from './../Spinner';
+import  Notificaction from './../Notification';
 
 function QueryList() {
   const { data, error, loading, fetchMore} = useQuery(SHOWLIST);
-  if (loading) return <Loader/>
-  if (error) return <p>{error.message}</p>; 
+  if (error) return <Notificaction text={"Failed to Load Data"}/>; 
+  if (!error && loading) return <Loader/>
   const entries = data.allPeople || [];
   const onLoadMore = () =>{ 
     fetchMore({

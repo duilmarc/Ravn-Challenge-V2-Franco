@@ -33,6 +33,8 @@ Run `npm start` for a dev server. Navigate to `http://localhost:3000/`.
 * [React](https://es.reactjs.org/) - Use to fronted Application
 * [Apollo](https://www.apollographql.com/docs/react/) - Used to interact with GraphQl
 * [Router-React](https://reactrouter.com/) - Use to manage routes in the project
+* [React-Icons](https://react-icons.github.io/react-icons) - Use to icons style
+* [React-boostrap](https://react-bootstrap.github.io/) - Use to style application
 
 
 
