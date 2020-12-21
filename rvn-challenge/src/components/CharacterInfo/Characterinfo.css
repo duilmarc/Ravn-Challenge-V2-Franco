@@ -1,0 +1,28 @@
+
+.container-detai{
+    align-items: center;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+.title{
+    margin-top: 3%;
+    font-size: 20px;
+    text-align: left;
+    color: #333333;
+    font-weight: bold;
+}
+
+.info-content h2.header {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #828282;
+    text-align: left;
+    display: inline-block;
+    font-weight: bold;
+}
+.info-content h2.text {
+    font-size: 20px;
+    color: #333333;
+    font-weight: bold;
+    text-align: right;
+}

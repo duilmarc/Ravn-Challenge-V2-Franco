@@ -10,7 +10,6 @@
   #root{
     height: 100vh;
     width: 100vw;
-
     position: fixed;
 
   }
@@ -55,7 +54,6 @@
   }
 
   
-/* CSS TO LIST OF CHARACTER */
 
   .container-page
   {
@@ -64,15 +62,16 @@
     height: 100vh;
     width: 100vw;
   }
-
+  
   .Registerview{
     margin-top: 45px;
   }
-
+  
   .Right{
     padding-top: 15px;
-    text-align: center;
     position: relative;
+    margin-right: 10%;
+    margin-left: 10%;
   }
   .Left{
     padding-top: 15px;
@@ -85,41 +84,17 @@
     border-bottom-width: 30px;
     border-bottom-style: solid;
   }
+  
   .loader{
-    padding-left: 30px;
-  }
- 
-  .Reference{
-    text-decoration: none;
-    margin-bottom: 0px;
-    border-color: var(--textlight);
-    margin-bottom: 10px;
-  }
-  .Reference:hover{
-    text-decoration: none;
-  }
-  .Reference hr{
-    margin-bottom: 0px;
-    margin-top: 0px;
+    text-align: center;
   }
 
-  .Reference h2 {
-    padding-top: 10px;
-    color : var(--textdark);
-    font-size: 17px;
+  .notification{
+    color: var(--textemphasis);
+    font-size: 20px;
     font-weight: bold;
-    margin-left: 30px;
-    margin-bottom: 0px;
-    margin-top: 0px;
-  }
 
-  .Reference p {
-    color : var(--textlight);
-    font-size: 14px;
-    margin-left: 30px;
-    margin-bottom: 0px;
-    padding-bottom: 10px;
   }
-  .Character:hover{
-    background-color: gainsboro;
+  .notification > p{
+    text-align: center;
   }

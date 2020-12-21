@@ -1,0 +1,43 @@
+/* CSS TO LIST OF CHARACTER */
+
+
+.Reference{
+  text-decoration: none;
+  margin-bottom: 0px;
+  border-color: var(--textlight);
+  margin-bottom: 10px;
+}
+.Reference:hover{
+  text-decoration: none;
+}
+.Reference hr{
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.Reference h2 {
+  padding-top: 20px;
+  color : var(--textdark);
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 30px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.Reference p {
+  color : var(--textlight);
+  font-size: 17px;
+  margin-left: 30px;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
+}
+.Character:hover{
+  background-color: gainsboro;
+}
+.Icon{
+  color : var(--textdark);
+  padding-top: 15px;
+  text-align: right;
+  padding-right: 10px;
+}
