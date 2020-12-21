@@ -21,14 +21,16 @@
   }
   
   .navbar-rvn{
-    height:40px;
+    height:50px;
     background-color : var(--rvanblack);
     text-indent: 33px;
   }
   .navbar-rvn p {
     text-align: left;
     color: white;
-    font-size: 17px;
+    font-size: 20px;
+    padding-top: 1px;
+    font-weight: bold;
   }
   .fixed-top{
     position: fixed;
@@ -39,25 +41,28 @@
   }
   
   .Registerview{
-    margin-top: 40px;
+    margin-top: 45px;
+    margin-bottom: 40px;
   }
 
 
   .Right{
-    padding-top: 10px;
+    padding-top: 15px;
     text-align: center;
     position: fixed;
   }
   .Left{
-    padding-top: 10px;
+    padding-top: 15px;
     padding-bottom: 40px ;
     border-right: 1px solid #333333;
     text-align: center;
     height: 100vh;
     overflow-y: auto;
     overflow-x: hidden;
+    border-bottom-width: 30px;
+    border-bottom-style: solid;
   }
-  
+
   .container, .container-lg, .container-md, .container-sm, .container-xl{
     max-width:max-content;
     max-height: max-content;

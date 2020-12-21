@@ -9,7 +9,7 @@ function QueryList() {
   const { data, error, loading, fetchMore} = useQuery(SHOWLIST);
   if (loading) return <p>Loading..</p>
   if (error) return <p>{error.message}</p>; 
-  const entries = data.allPeople ;
+  const entries = data.allPeople || [];
   const onLoadMore = () =>{ 
     fetchMore({
       variables: {

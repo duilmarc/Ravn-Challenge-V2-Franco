@@ -1,11 +1,6 @@
 import React, { Component } from "react";
 
 class CharacterList extends Component {
-  handleOnScroll = () => {
-    if (this.props.hasnext) {
-      this.props.onLoadMore();
-    }
-  };
   render() {
     if (!this.props.characters && this.props.loading) return <p>Loading....</p>;
     const characters = this.props.characters.edges || [];
