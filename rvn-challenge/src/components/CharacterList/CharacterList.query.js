@@ -2,12 +2,12 @@ import React from "react";
 import { useQuery } from '@apollo/client';
 import "./CharacterList.css";
 import CharacterList from "./CharacterList";
-import {SHOWLIST} from "./../../Apollo-Client/query"
-
+import {SHOWLIST} from "./../../Apollo-Client/query";
+import  Loader from './../Spinner';
 
 function QueryList() {
   const { data, error, loading, fetchMore} = useQuery(SHOWLIST);
-  if (loading) return <p>Loading..</p>
+  if (loading) return <Loader/>
   if (error) return <p>{error.message}</p>; 
   const entries = data.allPeople || [];
   const onLoadMore = () =>{ 
